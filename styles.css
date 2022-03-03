@@ -1,0 +1,164 @@
+body{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header{
+    display: flex;
+    padding: 0 20vh 0 20vh;
+    margin: 15px;
+    background-color: #1f2937;
+    margin: 0;
+    color: white;
+    align-items: baseline;
+}
+.push{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+.push div{
+    padding-left: 10px;
+}
+.grab{
+    color: white;
+    background-color: #1f2937;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.grabheader{
+    font-size: 38px;
+}
+.grab img{
+    background-color: #3882f6;
+    max-width: 430px;
+    height: 150px;
+    border-radius: 10px;
+}
+.grabbutton{
+   background-color: #3882f6;
+   padding: 5px 30px 5px 30px;
+   border-radius: 5px;
+   border: 0px;
+   margin-top: 10px;
+   color: white;
+   font-weight: bolder;
+}
+.fcontainer{
+    flex-direction: column;
+    max-width: 35vh;
+    margin-right: 50px;
+}
+
+.fcontainer h4{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1f2937;
+    color: white;
+}
+.second{
+    background-color: white;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.sheader{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+.second img{
+    max-width: 130px;
+    height: 130px;
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+}
+.info,
+.infohe{
+    margin: 0px 15px 0px 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.quotebox{
+    background-color: #e5e7eb;
+    color: black;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 30vh;
+    color: #1f2937;
+    font-style: italic;
+}
+.quotebox .quote{
+    max-width: 600px;
+    font-weight: lighter;
+}
+.name{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: black;
+    font-style: normal;
+}
+.signup, .signup button{
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: #3882f6; */
+    border-radius: 25px;
+    color: white;
+}
+.scall{
+    font-size: 20px;
+    font-weight: bold;
+}
+.stext{
+    font-size: 12px;
+}
+.signup button{
+    margin-left: 20px;
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 6px 0x 6px 0px;
+}
+.spush{
+    margin-left: 50px;
+}
+.signupcontainer{
+    background-color: #3882f6;
+    padding: 30px 60px 30px 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
