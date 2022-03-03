@@ -13,6 +13,11 @@ body{
     color: white;
     align-items: baseline;
 }
+.header a{
+    text-decoration: none; 
+    color: white;
+    margin-left: 15px;
+}
 .push{
     display: flex;
     justify-content: flex-end;
@@ -49,7 +54,7 @@ body{
 }
 .fcontainer{
     flex-direction: column;
-    max-width: 35vh;
+    max-width: 40vh;
     margin-right: 50px;
 }
 
